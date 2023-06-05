@@ -60,7 +60,6 @@ public class ListaContactos {
 		if(!encontrado) {
 			NodoTemporal nuevo = new NodoTemporal();
 			nuevo.setFecha(p.getFechaPosicion());
-
 			
 			NodoPosicion npActual = nuevo.getListaCoordenadas();
 			NodoPosicion npAnt=null;	
